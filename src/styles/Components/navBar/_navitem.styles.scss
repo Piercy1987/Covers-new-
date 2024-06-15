@@ -1,0 +1,27 @@
+.navitem-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: black;
+    padding: 0 7px;
+    min-width: 75px;
+    width: 100%;
+    background-color: rgba(185, 220, 251, 0.546);
+    border-left: 1px solid rgb(107, 169, 255);
+    &:last-child {
+        border-right: 1px solid rgb(107, 169, 255);
+    }
+    &:hover {
+        background-color: rgba(120, 192, 255, 0.217);
+        cursor: pointer;
+    }
+    &__active {
+        // background-color: rgba(255, 0, 0, 0.247);
+        border-bottom: 3px solid #3578E5;
+        &:hover{
+            background-color: rgba(0, 153, 255, 0.52);
+        }
+    }
+
+}

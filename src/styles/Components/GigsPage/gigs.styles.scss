@@ -1,0 +1,42 @@
+
+
+.gigsStaticTable {
+
+    &__container {
+        width: 100%;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+    }
+
+    &__table {
+        width: 100%;
+        border: none;
+        border-collapse: collapse;
+        // text-align: center;
+    }
+
+    &__tableRow {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid grey;
+        &:hover {
+            background-color: #e5e5e5;
+        }
+    }
+}
+
+.tableHeadData {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: left;
+    padding-left:20px
+}
+
+.tableRowData {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px
+}

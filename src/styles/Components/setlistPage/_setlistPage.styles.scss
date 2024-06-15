@@ -1,0 +1,21 @@
+.section2Container {
+    margin-top: 30px;
+}
+
+.setlistSection1 {
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px
+    }
+
+    &__staticText {
+        width: 60%;
+        text-align: center;
+    }
+
+    &__headerText {
+        width: 75%
+    }
+}

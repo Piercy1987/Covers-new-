@@ -1,0 +1,37 @@
+
+@import './base/settings';
+
+
+@import './base/base';
+
+@import './Components/Toast/toast.styles';
+
+// Layouts 
+@import './Components/app.styles';
+@import './Components/footer.styles';
+@import './Components/sideBar.styles';
+
+// Navbar
+@import './Components/navBar/navBar.styles';
+@import './Components/navBar/nav-menu.styles';
+@import './Components/navBar/nav-banner.styles';
+@import './Components/navBar/navitem.styles';
+@import './Components/navBar/bannerImage.styes';
+
+// Auth page
+@import './Components/authentication-page.styles';
+
+// Homepage
+@import './Components/LandingPage/section1.styles';
+@import './Components/LandingPage/section2.styles';
+
+
+//setlistPage
+@import './Components/setlistPage/setlistTable.styles';
+@import './Components/setlistPage/setlistPage.styles';
+
+// save bar
+@import './Components/SaveBar/SaveBar.styles.scss';
+
+// Gigs page
+@import './Components/GigsPage/gigs.styles.scss';

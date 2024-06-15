@@ -1,0 +1,30 @@
+
+.saveBarContainer {
+    padding: 20px;
+    height: 100px;
+    background-color: rgba(120, 162, 210, 0.693);
+    position: fixed;
+    bottom: 0;
+    width: 100%; /* Optional: Make the bar stretch the entire width of the screen */
+    color: #ffffff; /* Set the text color to your preference */
+    padding: 10px; /* Add padding or styling as needed */
+    display: flex;
+}
+
+.buttonContainer {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.saveBar__paragraph {
+    width: 60%;
+    align-self: flex-start
+}
+
+#draggableHandle {
+    background-color: #ffffff;
+    height: 8px; /* Initial height of the draggable handle */
+    cursor: ns-resize; /* Change cursor to indicate vertical resizing */
+  }

@@ -1,0 +1,25 @@
+.nav-banner-container {
+    height: 75px;
+    background-color: #74c0fc;
+    //box-shadow: 1px 2px 4px 2px grey;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+    // &--headerTitle {
+    //     margin-left: 50px
+    // }
+
+    &__icon {
+        // margin-left: auto;
+        margin-right: 50px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
+    &--headerTitle {
+        align-self: center;
+        margin: auto;
+    }
+}

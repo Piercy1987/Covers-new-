@@ -1,0 +1,31 @@
+.section1 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &--title {
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    &--paragraph {
+        text-align: center;
+        width: 50%;
+        margin-top: 20px;
+        line-height: 1.4;
+        letter-spacing: 2px;
+    }
+}
+
+.pull-quote {
+    background-color: #f7f7f7;
+    border-left: 6px solid #333;
+    color: rgba(82, 82, 82, 0.621);
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 28px;
+    font-style: italic;
+    text-align: center;
+    width: 60%;
+  }

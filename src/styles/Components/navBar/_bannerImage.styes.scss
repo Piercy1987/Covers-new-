@@ -1,0 +1,20 @@
+.bannerContainer {
+    margin-top: 125px;
+    background: url('../../../Images/pexels-mark-angelo-sampan-1587927.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 30vh
+}
+
+.page-title {
+    color: white;
+    font-size: 8em;
+    min-width: fit-content;
+    position: relative;
+    top: 20%;
+    // left: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+}

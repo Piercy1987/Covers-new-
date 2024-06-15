@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Heebo:wght@700&family=Inconsolata:wght@200&family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+$merriweather: 'Merriweather', serif;
+$heebo: "heebo, sans-serif";
+$ios: 'Inconsolata';
+$flower: 'Indie Flower';
+$festive: 'Festive', cursive;
+// Colors
+
+$primary-green: rgb(73, 187, 73);
+$secondary-green: rgb(106, 248, 137);
+$fireOrange: rgb(255, 101, 83);
+$background-grey:#adadad24;
+$principle-blue: RGBA(0, 79, 157, 1);
+$principle-red: RGBA(219, 50, 62, 1);
+$supporting-blue: RGBA(0,168,220,1);
+$supporting-red: RGBA(205,81,108,1);
+$supporting-coral: RGBA(254,208,151,1);
+$supporting-green: RGBA(0,145,100,1);
+$supporting-orange: RGBA(239,131,73,1);
+$supporting-grey: RGBA(135,138,143,1);
+$supporting-lightgreen: RGBA(165,196,110,1);
+$supporting-yellow: RGBA(255,206,52,1);
+$supporting-purple: RGBA(90,55,116,1);
+$dark-blue: #333745;
+$blue: #3c4251;
+$light-blue: #46465e;
+$off-black: #20222b;
+$off-white: #a5afd7;
+$purple: #8357c5;
+
+// Sizing
+$s-size: 1.2rem;
+$m-size: 1.6rem;
+$ml-size: 2rem;
+$l-size: 3.2rem;
+$xl-size: 4.8rem;
+$header-title: 10rem;
+$desktop-breakpoint: 45rem;
