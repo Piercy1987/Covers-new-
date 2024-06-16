@@ -1,5 +1,6 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
+import { firebaseConfig } from "../FireBaseConfig"; 
 
 import { 
     getAuth, 
@@ -19,16 +20,15 @@ import {
     setDoc
  } from 'firebase/firestore'
 
-
- const firebaseConfig = {
-    apiKey: "AIzaSyD6sApr5th97koL0ImbRlW035AU4rUwEOs",
-    authDomain: "webbuilder-666c2.firebaseapp.com",
-    projectId: "webbuilder-666c2",
-    storageBucket: "webbuilder-666c2.appspot.com",
-    messagingSenderId: "387642997319",
-    appId: "1:387642997319:web:12841c1ff5a7066a654f62",
-    measurementId: "G-38TW9Z30WY"
-  };
+const {
+    apiKey,
+    authDomain,
+    projectId,
+    storageBucket,
+    messagingSenderId,
+    appId,
+    measurementId
+} = firebaseConfig
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
