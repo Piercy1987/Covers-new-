@@ -8,13 +8,31 @@
 
 .page-title {
     color: white;
-    font-size: 8em;
+    font-size: 7rem;
     min-width: fit-content;
     position: relative;
     top: 20%;
-    // left: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
     white-space: nowrap;
-}
+    
+    // Media query for small screens
+    @media (max-width: 767px) {
+      font-size: 3rem;
+      top: 15%;
+    }
+  
+    // Media query for medium screens
+    @media (min-width: 768px) and (max-width: 1023px) {
+      font-size: 5rem;
+      top: 18%;
+    }
+  
+    // Media query for large screens
+    @media (min-width: 1024px) {
+      font-size: 7rem;
+      top: 20%;
+    }
+  }
+  
